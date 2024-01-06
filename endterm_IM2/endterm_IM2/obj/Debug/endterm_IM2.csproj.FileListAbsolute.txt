@@ -14,3 +14,4 @@ C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endter
 C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
 C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doctor.resources
 C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_patient.resources

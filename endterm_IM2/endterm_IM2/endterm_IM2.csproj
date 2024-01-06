@@ -61,6 +61,12 @@
     <Compile Include="admin_dashboard.Designer.cs">
       <DependentUpon>admin_dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="admin_patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_patient.Designer.cs">
+      <DependentUpon>admin_patient.cs</DependentUpon>
+    </Compile>
     <Compile Include="DbConnect.cs" />
     <Compile Include="Doctor.cs">
       <SubType>Form</SubType>
@@ -73,6 +79,24 @@
     </Compile>
     <Compile Include="doctor_admin.Designer.cs">
       <DependentUpon>doctor_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc_Dashboard.Designer.cs">
+      <DependentUpon>doc_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc_patient_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc_patient_info.Designer.cs">
+      <DependentUpon>doc_patient_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc_quest_patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc_quest_patient.Designer.cs">
+      <DependentUpon>doc_quest_patient.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -88,11 +112,23 @@
     <EmbeddedResource Include="admin_dashboard.resx">
       <DependentUpon>admin_dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="admin_patient.resx">
+      <DependentUpon>admin_patient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Doctor.resx">
       <DependentUpon>Doctor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="doctor_admin.resx">
       <DependentUpon>doctor_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc_Dashboard.resx">
+      <DependentUpon>doc_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc_patient_info.resx">
+      <DependentUpon>doc_patient_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc_quest_patient.resx">
+      <DependentUpon>doc_quest_patient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
