@@ -18,11 +18,29 @@ namespace endterm_IM2
         public TextBox stud_id;
         public TextBox fname;
         public TextBox lname;
+        public TextBox age;
+        public TextBox sex;
+        // no need
         public TextBox course;
         public TextBox yearlevel;
-        public TextBox sex;
-        public TextBox age;
-        public TextBox bd;
+      
+        // no need
+
+        public TextBox med;
+        public TextBox med_dosages;
+        public TextBox med_takee;
+        public TextBox diagnosis;
+        public TextBox treatment;
+        public string stud_address;
+        public string doc_Fname;
+        public string doc_Lname;
+        public string Visit_date;
+        public string doc_name;
+
+
+        public int get_phyc_id;
+        public int get_med_rec_id;
+        public int get_doc_id;
 
         public doc_prescription()
         {
@@ -31,11 +49,20 @@ namespace endterm_IM2
             stud_id = this.textbox_stud_id;
             fname = this.textbox_fName;
             lname = this.textbox_Lname;
-            course = this.textbox_courseProgram;
-            yearlevel = this.textbox_yearlevel;
             sex = this.textbox_sex;
             age = this.textbox_studage;
-            bd = this.textbox_bod;
+
+            med = this.textbox_medicine;
+            med_dosages = this.textbox_med_dosage;
+            med_takee = this.textbox_med_take;
+            diagnosis = this.textbox_diagnosis;
+            treatment = this.textbox_treatment;
+
+            // no need
+            course = this.textbox_courseProgram;
+            yearlevel = this.textbox_yearlevel;
+           
+         //   bd = this.textbox_bod;
         }
 
         private void courseProgram_TextChanged(object sender, EventArgs e)
@@ -172,7 +199,7 @@ namespace endterm_IM2
         {
             DbConnect addingConnection = new DbConnect();
             addingConnection.connect();
-            string sql = "SELECT * FROM students JOIN physical ON physical.StudentID = students.StudentID JOIN medical_records ON medical_records.Physical_id = physical.Physical_id JOIN doctor ON doctor.DoctorID = medical_records.Doctor_id;";
+            string sql = "SELECT students.StudentID, \r\nstudents.FirstName, \r\nstudents.LastName, students.program_course, students.Year_Level, students.Sex, students.Age, physical.Physical_id, medical_records.Med_rec_ID, doctor.DoctorID, students.Address, doctor.FirstName, doctor.LastName, prescription.Visit_Date FROM students JOIN physical ON physical.StudentID = students.StudentID JOIN medical_records ON medical_records.Physical_id = physical.Physical_id JOIN doctor ON doctor.DoctorID = medical_records.Doctor_id JOIN prescription ON\tprescription.Doctor_id = doctor.DoctorID;";
             MySqlCommand cmd = new MySqlCommand(sql, addingConnection.conn);
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable dt = new DataTable();
@@ -221,11 +248,24 @@ namespace endterm_IM2
              this.textbox_stud_id.Text = this.dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
             this.textbox_fName.Text = this.dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
             this.textbox_Lname.Text = this.dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-            this.textbox_courseProgram.Text = this.dataGridView1.SelectedRows[0].Cells[9].Value.ToString();
-            this.textbox_yearlevel.Text = this.dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
-            this.textbox_sex.Text = this.dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
-            this.textbox_studage.Text = this.dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
-            this.textbox_bod.Text = this.dataGridView1.SelectedRows[0].Cells[5].Value.ToString(); ;
+            this.textbox_courseProgram.Text = this.dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+            this.textbox_yearlevel.Text = this.dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
+            this.textbox_sex.Text = this.dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+            this.textbox_studage.Text = this.dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
+           // this.textbox_bod.Text = this.dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+
+            get_phyc_id =  int.Parse(this.dataGridView1.SelectedRows[0].Cells[7].Value.ToString());
+            get_med_rec_id = int.Parse(this.dataGridView1.SelectedRows[0].Cells[8].Value.ToString());
+            get_doc_id = int.Parse(this.dataGridView1.SelectedRows[0].Cells[9].Value.ToString());
+
+            stud_address = this.dataGridView1.SelectedRows[0].Cells[10].Value.ToString();
+            doc_Fname = this.dataGridView1.SelectedRows[0].Cells[11].Value.ToString();
+            doc_Lname = this.dataGridView1.SelectedRows[0].Cells[12].Value.ToString();
+            Visit_date = this.dataGridView1.SelectedRows[0].Cells[13].Value.ToString();
+            
+            doc_name = doc_Fname + " " + doc_Lname;
+
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

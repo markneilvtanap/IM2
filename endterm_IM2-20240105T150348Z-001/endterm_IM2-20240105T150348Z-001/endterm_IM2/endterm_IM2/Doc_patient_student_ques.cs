@@ -13,12 +13,12 @@ namespace endterm_IM2
     public partial class Doc_patient_student_ques : UserControl
     {
 
-        public RichTextBox medHistory;
-        public RichTextBox medicationsx;
-        public RichTextBox suplimenets;
-        public RichTextBox famhis1;
-        public RichTextBox famhis2;
-        public RichTextBox chronicCon;
+        public TextBox medHistory;
+        public TextBox medicationsx;
+        public TextBox suplimenets;
+        public TextBox famhis1;
+        public TextBox famhis2;
+        public TextBox chronicCon;
         public Doc_patient_student_ques()
         {
             InitializeComponent();

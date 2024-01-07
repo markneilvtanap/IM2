@@ -49,8 +49,6 @@
             this.textbox_yearlevel = new System.Windows.Forms.TextBox();
             this.textbox_sex = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1Visit = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.textbox_med_take = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -64,8 +62,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textbox_bod = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -257,25 +253,6 @@
             this.label6.TabIndex = 183;
             this.label6.Text = "Sex";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(631, 354);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 18);
-            this.label7.TabIndex = 185;
-            this.label7.Text = "Visit Date";
-            // 
-            // dateTimePicker1Visit
-            // 
-            this.dateTimePicker1Visit.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker1Visit.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1Visit.Location = new System.Drawing.Point(634, 375);
-            this.dateTimePicker1Visit.Name = "dateTimePicker1Visit";
-            this.dateTimePicker1Visit.Size = new System.Drawing.Size(119, 22);
-            this.dateTimePicker1Visit.TabIndex = 186;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -401,30 +378,11 @@
             this.label17.TabIndex = 199;
             this.label17.Text = "Doctor Prescription";
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(595, 247);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(75, 18);
-            this.label18.TabIndex = 201;
-            this.label18.Text = "Birthdate";
-            // 
-            // textbox_bod
-            // 
-            this.textbox_bod.Location = new System.Drawing.Point(598, 268);
-            this.textbox_bod.Name = "textbox_bod";
-            this.textbox_bod.Size = new System.Drawing.Size(163, 22);
-            this.textbox_bod.TabIndex = 200;
-            // 
             // doc_prescription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.textbox_bod);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -438,8 +396,6 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textbox_med_dosage);
             this.Controls.Add(this.textbox_medicine);
-            this.Controls.Add(this.dateTimePicker1Visit);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.textbox_sex);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textbox_yearlevel);
@@ -492,8 +448,6 @@
         private System.Windows.Forms.TextBox textbox_yearlevel;
         private System.Windows.Forms.TextBox textbox_sex;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1Visit;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textbox_med_take;
         private System.Windows.Forms.Label label9;
@@ -507,7 +461,5 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textbox_bod;
     }
 }

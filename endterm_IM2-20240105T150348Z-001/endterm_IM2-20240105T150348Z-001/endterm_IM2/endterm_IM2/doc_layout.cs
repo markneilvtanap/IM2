@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Xml.Linq;
+using System.Runtime.Remoting.Messaging;
 
 namespace endterm_IM2
 {
@@ -75,6 +76,7 @@ namespace endterm_IM2
         public string stud_chronic_con;
 
         // question 2 info
+        public int ques2_id;
         public string stud_syntoms1;
         public string stud_syntoms2;
         public string stud_lifestyle;
@@ -82,11 +84,17 @@ namespace endterm_IM2
         public string stud_mental;
         public string stud_mental2;
         public string stud_vaccine;
+        //
+
+        // precription
+        public int incremental_pres_id;
+        public int pres_id;
 
         public doc_layout_02()
         {
             InitializeComponent();
-            
+            doc_prescription1.get_doc_id = doc_id;
+            doc_dashboard1.get_doc_id = doc_id;
         }
 
         
@@ -176,11 +184,15 @@ namespace endterm_IM2
 
 
             buttonGenerateInvoice.Visible = true;
-            this.buttonGenerateInvoice.Text = "PRINT";
+
+            //here
+            this.buttonGenerateInvoice.Text = "SAVE";
             
             button_back.Text = "Show Physical Info";
             button_next.Text = "Show Question1 Info";
             button_submit.Text = "Show Question2 Info";
+
+
             button_back.Visible = true; 
             button_back.Enabled = true;
             button_next.Enabled = true;
@@ -194,7 +206,7 @@ namespace endterm_IM2
             doc_prescription1.sex.Enabled = false;
             doc_prescription1.age.Enabled = false;
             doc_prescription1.yearlevel.Enabled = false;
-            doc_prescription1.bd.Enabled = false;   
+        //    doc_prescription1.bd.Enabled = false;   
             doc_prescription1.Show();
             doc_prescription1.BringToFront();
             doc_prescription1.loading();
@@ -217,7 +229,8 @@ namespace endterm_IM2
             this.button_next.Visible = false;
             this.button_submit.Visible = false;
             this.buttonGenerateInvoice.Visible = false;
-            
+            doc_dashboard1.get_doc_id = doc_id;
+
 
             //displaying the doctor dashboard form A.K.A doc_dashboard form
             doc_dashboard1.Show();
@@ -513,7 +526,56 @@ namespace endterm_IM2
                 button_next.Text = "NEXT TO QUESTION 2";
             }
 
+            else if (button_next.Text == "Show Question1 Info")
+            {
+                ques1_id = doc_prescription1.get_med_rec_id;
+
+
+                DbConnect showPhysicalConnection = new DbConnect();
+                showPhysicalConnection.connect();
+                string sql = "SELECT Medical_history, family_history, family_history2, Medications, Allergies, ChronicConditions FROM medical_records WHERE medical_records.Med_rec_ID = '"+ques1_id+"';";
+                MySqlCommand cmd = new MySqlCommand(sql, showPhysicalConnection.conn);
+                MySqlDataReader dr = cmd.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    doc_patient_student_ques1.medHistory.Text = dr.GetValue(0).ToString();
+                    doc_patient_student_ques1.famhis1.Text = dr.GetValue(1).ToString();
+                    doc_patient_student_ques1.famhis2.Text = dr.GetValue(2).ToString();
+                    doc_patient_student_ques1.medicationsx.Text = dr.GetValue(3).ToString();
+                    doc_patient_student_ques1.suplimenets.Text = dr.GetValue(4).ToString();
+                    doc_patient_student_ques1.chronicCon.Text = dr.GetValue(5).ToString();
+
+                    doc_patient_student_ques1.medHistory.Enabled = false;
+                    doc_patient_student_ques1.famhis1.Enabled = false;
+                    doc_patient_student_ques1.famhis2.Enabled = false;
+                    doc_patient_student_ques1.medicationsx.Enabled = false;
+                    doc_patient_student_ques1.suplimenets.Enabled = false;
+                    doc_patient_student_ques1.chronicCon.Enabled = false;
+                    doc_patient_student_ques1.Show();
+                    doc_patient_student_ques1.BringToFront();
+
+                    button_next.Text = "Hide Question1 Info";
+
+                   
+                    button_back.Text = "Show Physical Info";
+                    button_submit.Text = "Show Question2 Info";
+
+                    button_submit.Enabled = true;
+                    button_next.Enabled = true;
+                    button_back.Enabled = true;
+                }
             }
+
+
+            else if (button_next.Text == "Hide Question1 Info")
+            {
+                doc_prescription1.Show();
+                doc_prescription1.BringToFront();
+                button_next.Text = "Show Question1 Info";
+            }
+
+        }
 
         private void button_back_Click(object sender, EventArgs e)
         {
@@ -558,21 +620,41 @@ namespace endterm_IM2
 
             else if (this.button_back.Text == "Show Physical Info")
             {
-                DbConnect showPhysicalConnection = new DbConnect();
+                physical_id = doc_prescription1.get_phyc_id;
+
+
+                  DbConnect showPhysicalConnection = new DbConnect();
                 showPhysicalConnection.connect();
-                string sql = "SELECT * FROM physical WHERE Physical_id = 1";
+                string sql = "SELECT * FROM physical WHERE Physical_id = '"+physical_id+"'";
                 MySqlCommand cmd = new MySqlCommand(sql, showPhysicalConnection.conn);
                 MySqlDataReader dr = cmd.ExecuteReader();
-                patient_student_physical1.Height.Enabled = false;
-                patient_student_physical1.Weight.Enabled = false;
-                patient_student_physical1.Heart_rate.Enabled = false;
-                patient_student_physical1.Blood_pressure.Enabled = false;
-                patient_student_physical1.Body_temperature.Enabled = false;
+
+                if (dr.Read())
+                {
+
+                    patient_student_physical1.Height.Enabled = false;
+                    patient_student_physical1.Weight.Enabled = false;
+                    patient_student_physical1.Heart_rate.Enabled = false;
+                    patient_student_physical1.Blood_pressure.Enabled = false;
+                    patient_student_physical1.Body_temperature.Enabled = false;
+
+                    patient_student_physical1.Height.Text = dr.GetValue(2).ToString();
+                    patient_student_physical1.Weight.Text = dr.GetValue(3).ToString();
+                    patient_student_physical1.Heart_rate.Text = dr.GetValue(4).ToString();
+                    patient_student_physical1.Blood_pressure.Text = dr.GetValue(5).ToString();
+                    patient_student_physical1.Body_temperature.Text = dr.GetValue(6).ToString();
 
                 patient_student_physical1.Show();
-                patient_student_physical1.BringToFront();
+                    patient_student_physical1.BringToFront();
+                    button_next.Text = "Show Question1 Info";
+                    button_back.Text = "Hide Physical Info";
+                    button_submit.Text = "Show Question2 Info";
 
-                button_back.Text = "Hide Physical Info";
+                    button_submit.Enabled = true;
+                    button_next.Enabled = true;
+                    button_back.Enabled = true;
+                }
+            
             }
 
             else if (this.button_back.Text == "Hide Physical Info")
@@ -582,6 +664,7 @@ namespace endterm_IM2
                 button_back.Text = "Show Physical Info";
 
             }
+
         }
 
         private void doc_patient_student_ques1_Load(object sender, EventArgs e)
@@ -601,42 +684,134 @@ namespace endterm_IM2
 
         private void button_submit_Click(object sender, EventArgs e)
         {
-           
-
-            DialogResult result = MessageBox.Show("Are you sure you want to submit this record?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
+            if (button_submit.Text == "SUBMIT")
             {
-                stud_syntoms1 = doc_Patient_student_ques_21.currsymp1.Text;
-                stud_syntoms2 = doc_Patient_student_ques_21.currsymp2.Text;
-                stud_lifestyle = doc_Patient_student_ques_21.lifeStyle.Text;
-                stud_habits = doc_Patient_student_ques_21.habitsx.Text;
-                stud_mental = doc_Patient_student_ques_21.men_health1.Text;
-                stud_mental2 = doc_Patient_student_ques_21.men_health2.Text;
-                stud_vaccine = doc_Patient_student_ques_21.vac_history.Text;
+                DialogResult result = MessageBox.Show("Are you sure you want to submit this record?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                DbConnect updateques2Connection = new DbConnect();
-                updateques2Connection.connect();
-                string sql = "UPDATE `medical_records` SET `Symptoms` = '" + stud_syntoms1 + "', `Symptoms2` = '" + stud_syntoms2 + "', `LifeStyle` = '" + stud_lifestyle + "', `habits` = '" + stud_habits + "', `Mental` = '" + stud_mental + "', `Mental2` = '" + stud_mental2 + "', `Vaccine` = '" + stud_vaccine + "' WHERE `medical_records`.`Med_rec_ID` = '" + ques1_id + "'";
-                MySqlCommand cmd = new MySqlCommand(sql, updateques2Connection.conn);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                updateques2Connection.disconnect();
-                MessageBox.Show("RECORD HAS BEEN ADDED!", "Error");
+                if (result == DialogResult.Yes)
+                {
+                    stud_syntoms1 = doc_Patient_student_ques_21.currsymp1.Text;
+                    stud_syntoms2 = doc_Patient_student_ques_21.currsymp2.Text;
+                    stud_lifestyle = doc_Patient_student_ques_21.lifeStyle.Text;
+                    stud_habits = doc_Patient_student_ques_21.habitsx.Text;
+                    stud_mental = doc_Patient_student_ques_21.men_health1.Text;
+                    stud_mental2 = doc_Patient_student_ques_21.men_health2.Text;
+                    stud_vaccine = doc_Patient_student_ques_21.vac_history.Text;
+
+                    DbConnect updateques2Connection = new DbConnect();
+                    updateques2Connection.connect();
+                    string sql = "UPDATE `medical_records` SET `Symptoms` = '" + stud_syntoms1 + "', `Symptoms2` = '" + stud_syntoms2 + "', `LifeStyle` = '" + stud_lifestyle + "', `habits` = '" + stud_habits + "', `Mental` = '" + stud_mental + "', `Mental2` = '" + stud_mental2 + "', `Vaccine` = '" + stud_vaccine + "' WHERE `medical_records`.`Med_rec_ID` = '" + ques1_id + "'";
+                    MySqlCommand cmd = new MySqlCommand(sql, updateques2Connection.conn);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    ques2_id = ques1_id;
+                    updateques2Connection.disconnect();
+                    MessageBox.Show("RECORD HAS BEEN ADDED!", "Error");
+                    button_back.Enabled = false;
+                    button_submit.Enabled = false;
+                }
+
+
             }
+            else if (button_submit.Text == "Show Question2 Info")
+            {
+                ques2_id = doc_prescription1.get_med_rec_id;
+                DbConnect showQues2Connection = new DbConnect();
+                showQues2Connection.connect();
+                string sql = "SELECT  Symptoms, Symptoms2, LifeStyle, habits, Mental, Mental2, Vaccine FROM medical_records WHERE medical_records.Med_rec_ID = '"+ ques2_id + "';";
+                MySqlCommand cmd = new MySqlCommand(sql, showQues2Connection.conn);
+                MySqlDataReader dr = cmd.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    doc_Patient_student_ques_21.currsymp1.Text = dr.GetValue(0).ToString();
+                    doc_Patient_student_ques_21.currsymp2.Text = dr.GetValue(1).ToString();
+                    doc_Patient_student_ques_21.lifeStyle.Text = dr.GetValue(2).ToString();
+                    doc_Patient_student_ques_21.habitsx.Text = dr.GetValue(3).ToString();
+                    doc_Patient_student_ques_21.men_health1.Text = dr.GetValue(4).ToString();
+                    doc_Patient_student_ques_21.men_health2.Text = dr.GetValue(5).ToString();
+                    doc_Patient_student_ques_21.vac_history.Text = dr.GetValue(6).ToString();
+
+                    doc_Patient_student_ques_21.currsymp1.Enabled = false;
+                    doc_Patient_student_ques_21.currsymp2.Enabled = false;
+                    doc_Patient_student_ques_21.lifeStyle.Enabled = false;
+                    doc_Patient_student_ques_21.habitsx.Enabled = false;
+                    doc_Patient_student_ques_21.men_health1.Enabled = false;
+                    doc_Patient_student_ques_21.men_health2.Enabled = false;
+
+                    doc_Patient_student_ques_21.Show();
+                    doc_Patient_student_ques_21.BringToFront();
+
+                    button_submit.Text = "Hide Question2 Info";
+                    button_next.Text = "Show Question1 Info";
+                    button_back.Text = "Show Physical Info";
+
+                    button_submit.Enabled = true;
+                    button_next.Enabled = true;
+                    button_back.Enabled = true;
+                }
+               
+            }
+            else if (button_submit.Text == "Hide Question2 Info")
+            {
+                doc_prescription1.Show();
+                doc_prescription1.BringToFront();
+                button_submit.Text = "Show Question2 Info";
+            }
+
+           
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-         //   DbConnect addPrecriptionConnection = new DbConnect();
-         //   addPrecriptionConnection.connect();
-         //   string sql = "INSERT INTO ";
-         //   MySqlCommand cmd = new MySqlCommand(sql, addPrecriptionConnection.conn);
-        //    MySqlDataReader reader = cmd.ExecuteReader();
 
-            print_prescription print_presrip = new print_prescription();
-          //  print_presrip.stud_ffname.Text = "Mark";
+            if (buttonGenerateInvoice.Text == "SAVE")
+            {
+                DbConnect getLatestPres_IdConnection = new DbConnect();
+                getLatestPres_IdConnection.connect();
+                string sqlques01 = "SELECT  Med_rec_ID FROM medical_records ORDER BY Med_rec_ID DESC";
+                MySqlCommand cmd2 = new MySqlCommand(sqlques01, getLatestPres_IdConnection.conn);
+                MySqlDataReader reader = cmd2.ExecuteReader();
 
-            print_presrip.ShowDialog();
+                if (reader.Read())
+                {
+                    incremental_pres_id = int.Parse(reader.GetValue(0).ToString());
+                }
+                incremental_pres_id++;
+                pres_id = incremental_pres_id;
+                getLatestPres_IdConnection.disconnect();
+                DbConnect addPrecriptionConnection = new DbConnect();
+                   addPrecriptionConnection.connect();
+                  string sqlx = "INSERT INTO `prescription` (`Pres_ID`, `Doctor_id`, `Med_rec_ID`, `student_id`, `Visit_Date`, `Medicine`, `Medicine_Dosage`, `Medicine Take`, `Diagnosis`, `Treatment`) VALUES ('NULL', '"+ doc_prescription1.get_doc_id + "', '"+ doc_prescription1.get_med_rec_id + "', '"+ doc_prescription1.stud_id.Text+ "', current_timestamp(), '"+ doc_prescription1.med.Text+"', '"+ doc_prescription1.med_dosages.Text+ "', '"+ doc_prescription1.med_takee.Text + "', '"+ doc_prescription1.diagnosis.Text + "', '"+ doc_prescription1.treatment.Text+ "');";
+                  MySqlCommand cmdx = new MySqlCommand(sqlx, addPrecriptionConnection.conn);
+                  MySqlDataReader reader2 = cmdx.ExecuteReader();
+
+                buttonGenerateInvoice.Text = "PRINT";
+            }
+
+            else if (buttonGenerateInvoice.Text == "PRINT")
+            {
+
+
+                print_prescription print_presrip = new print_prescription();
+                print_presrip.labelStudFname.Text = doc_prescription1.fname.Text;
+                print_presrip.labelStudLname.Text = doc_prescription1.lname.Text;
+                print_presrip.labelStudAge.Text = doc_prescription1.age.Text;
+                print_presrip.labelStudSex.Text = doc_prescription1.sex.Text;
+                print_presrip.labelStudMed.Text = doc_prescription1.med.Text;
+                print_presrip.labelStudtreatment.Text = doc_prescription1.treatment.Text;
+                print_presrip.labelStudDosage.Text = doc_prescription1.med_dosages.Text;
+                print_presrip.labelStudIntake.Text = doc_prescription1.med_takee.Text;
+                print_presrip.labelStudDiagnosis.Text = doc_prescription1.diagnosis.Text;
+                print_presrip.labelStudDate.Text = doc_prescription1.Visit_date;
+                print_presrip.labelStudAddress.Text = doc_prescription1.stud_address;
+                print_presrip.labelDocName.Text = doc_prescription1.doc_name;
+               // print_presrip.labelStudAddress.Text = doc_prescription1.
+
+                // print_presrip.labelStudAddress.Text = doc_prescription1.
+
+                print_presrip.ShowDialog();
+            }
+           
         }
 
         private void doc_Patient_student_ques_21_Load(object sender, EventArgs e)

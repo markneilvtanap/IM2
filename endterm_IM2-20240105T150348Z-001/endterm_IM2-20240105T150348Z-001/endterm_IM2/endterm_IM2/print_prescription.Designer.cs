@@ -46,7 +46,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.stud_fname = new System.Windows.Forms.Label();
+            this.label_stud_fname = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -61,22 +61,26 @@
             this.label_diagnosis = new System.Windows.Forms.Label();
             this.label_treatment = new System.Windows.Forms.Label();
             this.LabelFname = new System.Windows.Forms.Label();
-            this.stud_lname = new System.Windows.Forms.Label();
+            this.label_stud_lname = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.Doc_fnamee = new System.Windows.Forms.Label();
-            this.Doc_lnamee = new System.Windows.Forms.Label();
+            this.Doc_namee = new System.Windows.Forms.Label();
             this.panelPrint = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.stud_sex = new System.Windows.Forms.Label();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.stud_address = new System.Windows.Forms.Label();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.label35 = new System.Windows.Forms.Label();
-            this.stud_age = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.label_stud_address = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label_stud_age = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.label_stud_date = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.asdasd = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label_stud_sex = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPrint)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel13.SuspendLayout();
@@ -130,7 +134,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 34.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 402);
+            this.label1.Location = new System.Drawing.Point(18, 403);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 67);
             this.label1.TabIndex = 149;
@@ -141,7 +145,7 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(183, 421);
+            this.label7.Location = new System.Drawing.Point(39, 479);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(90, 20);
             this.label7.TabIndex = 156;
@@ -152,7 +156,7 @@
             this.labelMedicine.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMedicine.AutoSize = true;
             this.labelMedicine.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMedicine.Location = new System.Drawing.Point(188, 452);
+            this.labelMedicine.Location = new System.Drawing.Point(44, 510);
             this.labelMedicine.Name = "labelMedicine";
             this.labelMedicine.Size = new System.Drawing.Size(85, 18);
             this.labelMedicine.TabIndex = 157;
@@ -163,7 +167,7 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(183, 504);
+            this.label9.Location = new System.Drawing.Point(39, 562);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(160, 20);
             this.label9.TabIndex = 158;
@@ -174,7 +178,7 @@
             this.labelmedDosage.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelmedDosage.AutoSize = true;
             this.labelmedDosage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelmedDosage.Location = new System.Drawing.Point(188, 530);
+            this.labelmedDosage.Location = new System.Drawing.Point(44, 588);
             this.labelmedDosage.Name = "labelmedDosage";
             this.labelmedDosage.Size = new System.Drawing.Size(85, 18);
             this.labelmedDosage.TabIndex = 159;
@@ -185,7 +189,7 @@
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(653, 746);
+            this.label11.Location = new System.Drawing.Point(662, 748);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(48, 20);
             this.label11.TabIndex = 160;
@@ -196,7 +200,7 @@
             this.labelMedIntake.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMedIntake.AutoSize = true;
             this.labelMedIntake.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMedIntake.Location = new System.Drawing.Point(184, 598);
+            this.labelMedIntake.Location = new System.Drawing.Point(443, 592);
             this.labelMedIntake.Name = "labelMedIntake";
             this.labelMedIntake.Size = new System.Drawing.Size(85, 18);
             this.labelMedIntake.TabIndex = 161;
@@ -206,7 +210,7 @@
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Location = new System.Drawing.Point(188, 473);
+            this.panel5.Location = new System.Drawing.Point(44, 531);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 1);
             this.panel5.TabIndex = 153;
@@ -215,7 +219,7 @@
             // 
             this.panel6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(191, 551);
+            this.panel6.Location = new System.Drawing.Point(47, 609);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 1);
             this.panel6.TabIndex = 154;
@@ -224,21 +228,21 @@
             // 
             this.panel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(187, 619);
+            this.panel7.Location = new System.Drawing.Point(446, 613);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(200, 1);
             this.panel7.TabIndex = 155;
             // 
-            // stud_fname
+            // label_stud_fname
             // 
-            this.stud_fname.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.stud_fname.AutoSize = true;
-            this.stud_fname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stud_fname.Location = new System.Drawing.Point(35, 158);
-            this.stud_fname.Name = "stud_fname";
-            this.stud_fname.Size = new System.Drawing.Size(85, 18);
-            this.stud_fname.TabIndex = 160;
-            this.stud_fname.Text = "Visit Date:";
+            this.label_stud_fname.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_stud_fname.AutoSize = true;
+            this.label_stud_fname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_stud_fname.Location = new System.Drawing.Point(35, 158);
+            this.label_stud_fname.Name = "label_stud_fname";
+            this.label_stud_fname.Size = new System.Drawing.Size(85, 18);
+            this.label_stud_fname.TabIndex = 160;
+            this.label_stud_fname.Text = "Visit Date:";
             // 
             // panel8
             // 
@@ -340,7 +344,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(538, 421);
+            this.label4.Location = new System.Drawing.Point(446, 469);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 20);
             this.label4.TabIndex = 165;
@@ -363,7 +367,7 @@
             this.label_treatment.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label_treatment.AutoSize = true;
             this.label_treatment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_treatment.Location = new System.Drawing.Point(539, 460);
+            this.label_treatment.Location = new System.Drawing.Point(447, 508);
             this.label_treatment.Name = "label_treatment";
             this.label_treatment.Size = new System.Drawing.Size(85, 18);
             this.label_treatment.TabIndex = 167;
@@ -381,16 +385,16 @@
             this.LabelFname.TabIndex = 168;
             this.LabelFname.Text = "Firstname:";
             // 
-            // stud_lname
+            // label_stud_lname
             // 
-            this.stud_lname.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.stud_lname.AutoSize = true;
-            this.stud_lname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stud_lname.Location = new System.Drawing.Point(461, 153);
-            this.stud_lname.Name = "stud_lname";
-            this.stud_lname.Size = new System.Drawing.Size(85, 18);
-            this.stud_lname.TabIndex = 170;
-            this.stud_lname.Text = "Visit Date:";
+            this.label_stud_lname.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_stud_lname.AutoSize = true;
+            this.label_stud_lname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_stud_lname.Location = new System.Drawing.Point(461, 153);
+            this.label_stud_lname.Name = "label_stud_lname";
+            this.label_stud_lname.Size = new System.Drawing.Size(85, 18);
+            this.label_stud_lname.TabIndex = 170;
+            this.label_stud_lname.Text = "Visit Date:";
             // 
             // label6
             // 
@@ -403,45 +407,38 @@
             this.label6.TabIndex = 171;
             this.label6.Text = "Lastname:";
             // 
-            // Doc_fnamee
+            // Doc_namee
             // 
-            this.Doc_fnamee.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Doc_fnamee.AutoSize = true;
-            this.Doc_fnamee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Doc_fnamee.Location = new System.Drawing.Point(707, 746);
-            this.Doc_fnamee.Name = "Doc_fnamee";
-            this.Doc_fnamee.Size = new System.Drawing.Size(85, 18);
-            this.Doc_fnamee.TabIndex = 204;
-            this.Doc_fnamee.Text = "Visit Date:";
-            // 
-            // Doc_lnamee
-            // 
-            this.Doc_lnamee.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Doc_lnamee.AutoSize = true;
-            this.Doc_lnamee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Doc_lnamee.Location = new System.Drawing.Point(835, 748);
-            this.Doc_lnamee.Name = "Doc_lnamee";
-            this.Doc_lnamee.Size = new System.Drawing.Size(85, 18);
-            this.Doc_lnamee.TabIndex = 207;
-            this.Doc_lnamee.Text = "Visit Date:";
+            this.Doc_namee.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Doc_namee.AutoSize = true;
+            this.Doc_namee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Doc_namee.Location = new System.Drawing.Point(725, 749);
+            this.Doc_namee.Name = "Doc_namee";
+            this.Doc_namee.Size = new System.Drawing.Size(85, 18);
+            this.Doc_namee.TabIndex = 204;
+            this.Doc_namee.Text = "Visit Date:";
             // 
             // panelPrint
             // 
+            this.panelPrint.Controls.Add(this.asdasd);
+            this.panelPrint.Controls.Add(this.panel4);
+            this.panelPrint.Controls.Add(this.label_stud_sex);
+            this.panelPrint.Controls.Add(this.label2);
+            this.panelPrint.Controls.Add(this.panel3);
             this.panelPrint.Controls.Add(this.panel2);
             this.panelPrint.Controls.Add(this.panel1);
-            this.panelPrint.Controls.Add(this.Doc_lnamee);
-            this.panelPrint.Controls.Add(this.Doc_fnamee);
+            this.panelPrint.Controls.Add(this.Doc_namee);
             this.panelPrint.Controls.Add(this.label35);
             this.panelPrint.Controls.Add(this.panel28);
-            this.panelPrint.Controls.Add(this.stud_address);
+            this.panelPrint.Controls.Add(this.label_stud_address);
             this.panelPrint.Controls.Add(this.label18);
             this.panelPrint.Controls.Add(this.panel19);
-            this.panelPrint.Controls.Add(this.stud_age);
+            this.panelPrint.Controls.Add(this.label_stud_age);
             this.panelPrint.Controls.Add(this.label20);
             this.panelPrint.Controls.Add(this.panel20);
-            this.panelPrint.Controls.Add(this.stud_sex);
+            this.panelPrint.Controls.Add(this.label_stud_date);
             this.panelPrint.Controls.Add(this.label6);
-            this.panelPrint.Controls.Add(this.stud_lname);
+            this.panelPrint.Controls.Add(this.label_stud_lname);
             this.panelPrint.Controls.Add(this.LabelFname);
             this.panelPrint.Controls.Add(this.label_treatment);
             this.panelPrint.Controls.Add(this.label_diagnosis);
@@ -455,7 +452,7 @@
             this.panelPrint.Controls.Add(this.panel10);
             this.panelPrint.Controls.Add(this.label10);
             this.panelPrint.Controls.Add(this.panel8);
-            this.panelPrint.Controls.Add(this.stud_fname);
+            this.panelPrint.Controls.Add(this.label_stud_fname);
             this.panelPrint.Controls.Add(this.panel7);
             this.panelPrint.Controls.Add(this.panel6);
             this.panelPrint.Controls.Add(this.panel5);
@@ -473,6 +470,15 @@
             this.panelPrint.TabIndex = 0;
             this.panelPrint.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrint_Paint);
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Location = new System.Drawing.Point(46, 371);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(930, 3);
+            this.panel2.TabIndex = 199;
+            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -481,77 +487,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(300, 1);
             this.panel1.TabIndex = 159;
-            // 
-            // stud_sex
-            // 
-            this.stud_sex.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.stud_sex.AutoSize = true;
-            this.stud_sex.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stud_sex.Location = new System.Drawing.Point(410, 273);
-            this.stud_sex.Name = "stud_sex";
-            this.stud_sex.Size = new System.Drawing.Size(85, 18);
-            this.stud_sex.TabIndex = 176;
-            this.stud_sex.Text = "Visit Date:";
-            // 
-            // panel20
-            // 
-            this.panel20.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel20.BackColor = System.Drawing.Color.Black;
-            this.panel20.Location = new System.Drawing.Point(410, 294);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(560, 3);
-            this.panel20.TabIndex = 175;
-            // 
-            // label20
-            // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(406, 253);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(55, 20);
-            this.label20.TabIndex = 177;
-            this.label20.Text = "Date:";
-            // 
-            // panel19
-            // 
-            this.panel19.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel19.BackColor = System.Drawing.Color.Black;
-            this.panel19.Location = new System.Drawing.Point(40, 294);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(300, 1);
-            this.panel19.TabIndex = 178;
-            // 
-            // label18
-            // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(39, 253);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(47, 20);
-            this.label18.TabIndex = 180;
-            this.label18.Text = "Age:";
-            // 
-            // stud_address
-            // 
-            this.stud_address.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.stud_address.AutoSize = true;
-            this.stud_address.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stud_address.Location = new System.Drawing.Point(40, 220);
-            this.stud_address.Name = "stud_address";
-            this.stud_address.Size = new System.Drawing.Size(85, 18);
-            this.stud_address.TabIndex = 199;
-            this.stud_address.Text = "Visit Date:";
-            // 
-            // panel28
-            // 
-            this.panel28.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel28.BackColor = System.Drawing.Color.Black;
-            this.panel28.Location = new System.Drawing.Point(43, 241);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(930, 3);
-            this.panel28.TabIndex = 198;
             // 
             // label35
             // 
@@ -564,25 +499,139 @@
             this.label35.TabIndex = 200;
             this.label35.Text = "Address:";
             // 
-            // stud_age
+            // panel28
             // 
-            this.stud_age.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.stud_age.AutoSize = true;
-            this.stud_age.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stud_age.Location = new System.Drawing.Point(43, 273);
-            this.stud_age.Name = "stud_age";
-            this.stud_age.Size = new System.Drawing.Size(85, 18);
-            this.stud_age.TabIndex = 179;
-            this.stud_age.Text = "Visit Date:";
+            this.panel28.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel28.BackColor = System.Drawing.Color.Black;
+            this.panel28.Location = new System.Drawing.Point(43, 241);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(930, 3);
+            this.panel28.TabIndex = 198;
             // 
-            // panel2
+            // label_stud_address
             // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(46, 371);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(930, 3);
-            this.panel2.TabIndex = 199;
+            this.label_stud_address.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_stud_address.AutoSize = true;
+            this.label_stud_address.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_stud_address.Location = new System.Drawing.Point(40, 220);
+            this.label_stud_address.Name = "label_stud_address";
+            this.label_stud_address.Size = new System.Drawing.Size(85, 18);
+            this.label_stud_address.TabIndex = 199;
+            this.label_stud_address.Text = "Visit Date:";
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(39, 253);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(47, 20);
+            this.label18.TabIndex = 180;
+            this.label18.Text = "Age:";
+            // 
+            // panel19
+            // 
+            this.panel19.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel19.BackColor = System.Drawing.Color.Black;
+            this.panel19.Location = new System.Drawing.Point(40, 294);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(300, 1);
+            this.panel19.TabIndex = 178;
+            // 
+            // label_stud_age
+            // 
+            this.label_stud_age.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_stud_age.AutoSize = true;
+            this.label_stud_age.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_stud_age.Location = new System.Drawing.Point(43, 273);
+            this.label_stud_age.Name = "label_stud_age";
+            this.label_stud_age.Size = new System.Drawing.Size(85, 18);
+            this.label_stud_age.TabIndex = 179;
+            this.label_stud_age.Text = "Visit Date:";
+            // 
+            // label20
+            // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(406, 253);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(55, 20);
+            this.label20.TabIndex = 177;
+            this.label20.Text = "Date:";
+            // 
+            // panel20
+            // 
+            this.panel20.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel20.BackColor = System.Drawing.Color.Black;
+            this.panel20.Location = new System.Drawing.Point(410, 294);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(560, 3);
+            this.panel20.TabIndex = 175;
+            // 
+            // label_stud_date
+            // 
+            this.label_stud_date.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_stud_date.AutoSize = true;
+            this.label_stud_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_stud_date.Location = new System.Drawing.Point(410, 273);
+            this.label_stud_date.Name = "label_stud_date";
+            this.label_stud_date.Size = new System.Drawing.Size(85, 18);
+            this.label_stud_date.TabIndex = 176;
+            this.label_stud_date.Text = "Visit Date:";
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Location = new System.Drawing.Point(447, 530);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(400, 1);
+            this.panel3.TabIndex = 154;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(446, 561);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(146, 20);
+            this.label2.TabIndex = 205;
+            this.label2.Text = "Medicine Intake:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // asdasd
+            // 
+            this.asdasd.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.asdasd.AutoSize = true;
+            this.asdasd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.asdasd.Location = new System.Drawing.Point(460, 188);
+            this.asdasd.Name = "asdasd";
+            this.asdasd.Size = new System.Drawing.Size(40, 20);
+            this.asdasd.TabIndex = 208;
+            this.asdasd.Text = "Sex";
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Location = new System.Drawing.Point(464, 229);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(360, 1);
+            this.panel4.TabIndex = 206;
+            // 
+            // label_stud_sex
+            // 
+            this.label_stud_sex.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_stud_sex.AutoSize = true;
+            this.label_stud_sex.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_stud_sex.Location = new System.Drawing.Point(464, 208);
+            this.label_stud_sex.Name = "label_stud_sex";
+            this.label_stud_sex.Size = new System.Drawing.Size(85, 18);
+            this.label_stud_sex.TabIndex = 207;
+            this.label_stud_sex.Text = "Visit Date:";
             // 
             // print_prescription
             // 
@@ -626,7 +675,7 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label stud_fname;
+        private System.Windows.Forms.Label label_stud_fname;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel10;
@@ -641,21 +690,25 @@
         private System.Windows.Forms.Label label_diagnosis;
         private System.Windows.Forms.Label label_treatment;
         private System.Windows.Forms.Label LabelFname;
-        private System.Windows.Forms.Label stud_lname;
+        private System.Windows.Forms.Label label_stud_lname;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label Doc_fnamee;
-        private System.Windows.Forms.Label Doc_lnamee;
+        private System.Windows.Forms.Label Doc_namee;
         private System.Windows.Forms.Panel panelPrint;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Panel panel28;
-        private System.Windows.Forms.Label stud_address;
+        private System.Windows.Forms.Label label_stud_address;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label stud_age;
+        private System.Windows.Forms.Label label_stud_age;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Label stud_sex;
+        private System.Windows.Forms.Label label_stud_date;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label asdasd;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label_stud_sex;
     }
 }

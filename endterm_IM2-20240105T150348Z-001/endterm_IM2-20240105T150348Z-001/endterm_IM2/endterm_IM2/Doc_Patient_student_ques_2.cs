@@ -12,24 +12,24 @@ namespace endterm_IM2
 {
     public partial class Doc_Patient_student_ques_2 : UserControl
     {
-        public RichTextBox currsymp1;
-        public RichTextBox currsymp2;
-        public RichTextBox lifeStyle;
-        public RichTextBox habitsx;
-        public RichTextBox men_health1;
-        public RichTextBox men_health2;
-        public RichTextBox vac_history;
+        public TextBox currsymp1;
+        public TextBox currsymp2;
+        public TextBox lifeStyle;
+        public TextBox habitsx;
+        public TextBox men_health1;
+        public TextBox men_health2;
+        public TextBox vac_history;
 
 
         public Doc_Patient_student_ques_2()
         {
             InitializeComponent();
-            currsymp1 = this.curr_symptoms1;
-            currsymp2=  this.curr_symptoms2;
-            lifeStyle = this.lifestyle;
-            habitsx = this.habits;
-            men_health1 = this.mentalHealth1;
-            men_health2 = this.mentalHealth2;
+           currsymp1 = this.curr_symptoms1;
+           currsymp2=  this.curr_symptoms2;
+            lifeStyle = this.lifestylexx;
+           habitsx = this.habits;
+           men_health1 = this.mentalHealth1;
+          men_health2 = this.mentalHealth2;
             vac_history = this.vaccine;
 
         }

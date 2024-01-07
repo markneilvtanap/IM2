@@ -28,25 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Doc_patient_student_ques));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtbox_family_hist2 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtbox_family_hist1 = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtbox_allergies = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtbox_medications = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtbox_chronic = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtbox_med_history = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.txtbox_med_history = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.txtbox_allergies = new System.Windows.Forms.TextBox();
+            this.txtbox_family_hist2 = new System.Windows.Forms.TextBox();
+            this.txtbox_family_hist1 = new System.Windows.Forms.TextBox();
+            this.txtbox_medications = new System.Windows.Forms.TextBox();
+            this.txtbox_chronic = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,15 +94,6 @@
             this.label1.TabIndex = 163;
             this.label1.Text = "General Informations";
             // 
-            // txtbox_family_hist2
-            // 
-            this.txtbox_family_hist2.Location = new System.Drawing.Point(519, 354);
-            this.txtbox_family_hist2.Name = "txtbox_family_hist2";
-            this.txtbox_family_hist2.Size = new System.Drawing.Size(580, 51);
-            this.txtbox_family_hist2.TabIndex = 162;
-            this.txtbox_family_hist2.Text = "";
-            this.txtbox_family_hist2.TextChanged += new System.EventHandler(this.richTextBox5_TextChanged_1);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -111,15 +104,6 @@
             this.label6.TabIndex = 161;
             this.label6.Text = "Are there any hereditary conditions you are aware of?";
             this.label6.Click += new System.EventHandler(this.label6_Click_1);
-            // 
-            // txtbox_family_hist1
-            // 
-            this.txtbox_family_hist1.Location = new System.Drawing.Point(519, 271);
-            this.txtbox_family_hist1.Name = "txtbox_family_hist1";
-            this.txtbox_family_hist1.Size = new System.Drawing.Size(580, 51);
-            this.txtbox_family_hist1.TabIndex = 160;
-            this.txtbox_family_hist1.Text = "";
-            this.txtbox_family_hist1.TextChanged += new System.EventHandler(this.richTextBox6_TextChanged);
             // 
             // label7
             // 
@@ -144,15 +128,6 @@
             this.label5.Text = "Family History:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // txtbox_allergies
-            // 
-            this.txtbox_allergies.Location = new System.Drawing.Point(7, 386);
-            this.txtbox_allergies.Name = "txtbox_allergies";
-            this.txtbox_allergies.Size = new System.Drawing.Size(458, 64);
-            this.txtbox_allergies.TabIndex = 157;
-            this.txtbox_allergies.Text = "";
-            this.txtbox_allergies.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged_1);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -163,15 +138,6 @@
             this.label3.TabIndex = 156;
             this.label3.Text = "Do you have any allergies to medications or other substances? ";
             this.label3.Click += new System.EventHandler(this.label3_Click_1);
-            // 
-            // txtbox_medications
-            // 
-            this.txtbox_medications.Location = new System.Drawing.Point(7, 471);
-            this.txtbox_medications.Name = "txtbox_medications";
-            this.txtbox_medications.Size = new System.Drawing.Size(458, 63);
-            this.txtbox_medications.TabIndex = 155;
-            this.txtbox_medications.Text = "";
-            this.txtbox_medications.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
             // 
             // label4
             // 
@@ -185,15 +151,6 @@
     "nts? ";
             this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
-            // txtbox_chronic
-            // 
-            this.txtbox_chronic.Location = new System.Drawing.Point(677, 461);
-            this.txtbox_chronic.Name = "txtbox_chronic";
-            this.txtbox_chronic.Size = new System.Drawing.Size(422, 63);
-            this.txtbox_chronic.TabIndex = 153;
-            this.txtbox_chronic.Text = "";
-            this.txtbox_chronic.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged_1);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -204,14 +161,6 @@
             this.label2.TabIndex = 152;
             this.label2.Text = "Any chronic conditions or past surgeries?";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
-            // 
-            // txtbox_med_history
-            // 
-            this.txtbox_med_history.Location = new System.Drawing.Point(11, 270);
-            this.txtbox_med_history.Name = "txtbox_med_history";
-            this.txtbox_med_history.Size = new System.Drawing.Size(454, 64);
-            this.txtbox_med_history.TabIndex = 151;
-            this.txtbox_med_history.Text = "";
             // 
             // label8
             // 
@@ -234,26 +183,80 @@
             this.label9.Text = "Chronic Condition";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
+            // txtbox_med_history
+            // 
+            this.txtbox_med_history.Location = new System.Drawing.Point(7, 267);
+            this.txtbox_med_history.Multiline = true;
+            this.txtbox_med_history.Name = "txtbox_med_history";
+            this.txtbox_med_history.Size = new System.Drawing.Size(454, 64);
+            this.txtbox_med_history.TabIndex = 166;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // txtbox_allergies
+            // 
+            this.txtbox_allergies.Location = new System.Drawing.Point(5, 386);
+            this.txtbox_allergies.Multiline = true;
+            this.txtbox_allergies.Name = "txtbox_allergies";
+            this.txtbox_allergies.Size = new System.Drawing.Size(454, 64);
+            this.txtbox_allergies.TabIndex = 168;
+            // 
+            // txtbox_family_hist2
+            // 
+            this.txtbox_family_hist2.Location = new System.Drawing.Point(519, 354);
+            this.txtbox_family_hist2.Multiline = true;
+            this.txtbox_family_hist2.Name = "txtbox_family_hist2";
+            this.txtbox_family_hist2.Size = new System.Drawing.Size(580, 51);
+            this.txtbox_family_hist2.TabIndex = 169;
+            // 
+            // txtbox_family_hist1
+            // 
+            this.txtbox_family_hist1.Location = new System.Drawing.Point(519, 277);
+            this.txtbox_family_hist1.Multiline = true;
+            this.txtbox_family_hist1.Name = "txtbox_family_hist1";
+            this.txtbox_family_hist1.Size = new System.Drawing.Size(580, 51);
+            this.txtbox_family_hist1.TabIndex = 170;
+            // 
+            // txtbox_medications
+            // 
+            this.txtbox_medications.Location = new System.Drawing.Point(6, 472);
+            this.txtbox_medications.Multiline = true;
+            this.txtbox_medications.Name = "txtbox_medications";
+            this.txtbox_medications.Size = new System.Drawing.Size(454, 64);
+            this.txtbox_medications.TabIndex = 171;
+            // 
+            // txtbox_chronic
+            // 
+            this.txtbox_chronic.Location = new System.Drawing.Point(677, 462);
+            this.txtbox_chronic.Multiline = true;
+            this.txtbox_chronic.Name = "txtbox_chronic";
+            this.txtbox_chronic.Size = new System.Drawing.Size(422, 63);
+            this.txtbox_chronic.TabIndex = 172;
+            // 
             // Doc_patient_student_ques
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.txtbox_chronic);
+            this.Controls.Add(this.txtbox_medications);
+            this.Controls.Add(this.txtbox_family_hist1);
+            this.Controls.Add(this.txtbox_family_hist2);
+            this.Controls.Add(this.txtbox_allergies);
+            this.Controls.Add(this.txtbox_med_history);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtbox_family_hist2);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtbox_family_hist1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtbox_allergies);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtbox_medications);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtbox_chronic);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtbox_med_history);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox1);
@@ -272,19 +275,20 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox txtbox_family_hist2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RichTextBox txtbox_family_hist1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RichTextBox txtbox_allergies;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox txtbox_medications;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox txtbox_chronic;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox txtbox_med_history;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtbox_med_history;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox txtbox_allergies;
+        private System.Windows.Forms.TextBox txtbox_family_hist2;
+        private System.Windows.Forms.TextBox txtbox_family_hist1;
+        private System.Windows.Forms.TextBox txtbox_medications;
+        private System.Windows.Forms.TextBox txtbox_chronic;
     }
 }

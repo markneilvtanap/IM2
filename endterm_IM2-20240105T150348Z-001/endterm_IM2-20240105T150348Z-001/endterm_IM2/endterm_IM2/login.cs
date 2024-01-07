@@ -119,7 +119,11 @@ namespace endterm_IM2
                             doctorForm.doc_position = mdr3.GetValue(7).ToString();
                             doctorForm.doc_Specialization = mdr3.GetValue(8).ToString();
 
+                            
+
                             doctorForm.ShowDialog();
+
+                            
                         }
 
                        

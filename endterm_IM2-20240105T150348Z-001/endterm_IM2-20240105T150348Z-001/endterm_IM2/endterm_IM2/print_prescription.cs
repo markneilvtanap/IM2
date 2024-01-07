@@ -16,38 +16,54 @@ namespace endterm_IM2
       //  public Label stud_ffname;
      //   public Label stud_llname;
         public Label stud_aage;
-    //    public Label stud_ccontact;
-    //    public Label stud_ssex;
-     //   public Label stud_bbdate;
-    //    public Label stud_emerrcontact;
-    //    public Label stud_addresss;
-     //   public Label doc_fname;
-    //    public Label doc_lname;
-    //    public Label doc_contact;
-   //     public Label doc_email;
-    //    public Label doc_address;
-    //    public Label stud_med;
-    //    public Label stud_med_take;
-   //     public Label stud_med_dousage;
-   //     public Label stud_treatment;
-   //     public Label stud_diagnosis;
+
+        //    public Label stud_med_take;
+        //     public Label stud_med_dousage;
+        //     public Label stud_treatment;
+        //     public Label stud_diagnosis;
+
+           public Label labelStudFname;
+            public Label labelStudLname;
+          public Label labelStudAge;
+           public Label labelStudSex;
+            public Label labelStudAddress;
+          public Label labelStudDiagnosis;
+            public Label labelStudMed;
+            public Label labelStudDosage;
+             public Label labelStudtreatment;
+            public Label labelStudIntake;
+           public Label labelStudDate;
+        public Label labelDocName;
         public print_prescription()
         {
             InitializeComponent();
       //      stud_ffname = this.stud_fname;
-     //       stud_llname = this.stud_lname;
+      //       stud_llname = this.stud_lname;
       //      stud_aage = this.stud_age;
-     //        stud_ccontact = this.stud_contactxl;
+      //        stud_ccontact = this.stud_contactxl;
       //      stud_ssex = this.stud_sex ;
-     //    stud_bbdate = this.stud_bd ;
+      //    stud_bbdate = this.stud_bd ;
       //   stud_emerrcontact = this.stud_contact_emer;
-     //   stud_addresss = this.stud_address;
-     //  doc_fname = this.Doc_fnamee;
-    //    doc_lname = this.Doc_lnamee;
-    //     doc_contact = this.Doc_contactsssx;
-    //    doc_email = this.Doc_emailss;
+      //   stud_addresss = this.stud_address;
+      //  doc_fname = this.Doc_fnamee;
+      //    doc_lname = this.Doc_lnamee;
+      //     doc_contact = this.Doc_contactsssx;
+      //    doc_email = this.Doc_emailss;
       //   doc_address = this.Doc_addresssa;
 
+
+         labelStudFname = this.label_stud_fname;
+        labelStudLname = this.label_stud_lname;
+         labelStudAge = this.label_stud_age;
+         labelStudSex = this.label_stud_sex;
+       labelStudAddress = this.label_stud_address;
+       labelStudDiagnosis = this.label_diagnosis;
+         labelStudMed = this.labelMedicine;
+        labelStudDosage = this.labelmedDosage;
+         labelStudtreatment = this.label_treatment;
+         labelStudIntake = this.labelMedIntake;
+         labelStudDate = this.label_stud_date;
+            labelDocName = this.Doc_namee;
 
     }
 
@@ -113,6 +129,11 @@ namespace endterm_IM2
         }
 
         private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

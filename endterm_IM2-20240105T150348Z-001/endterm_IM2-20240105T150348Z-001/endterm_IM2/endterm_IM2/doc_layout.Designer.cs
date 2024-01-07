@@ -33,7 +33,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button_dashboard = new System.Windows.Forms.Button();
-            this.button_med_rec = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -52,7 +51,6 @@
             this.patient_student_physical1 = new endterm_IM2.doc_patient_student_physical();
             this.add_patient_student1 = new endterm_IM2.ParentName();
             this.doc_prescription1 = new endterm_IM2.doc_prescription();
-            this.doc_prescription2 = new endterm_IM2.doc_prescription();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -94,7 +92,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel2.Controls.Add(this.button_dashboard);
-            this.panel2.Controls.Add(this.button_med_rec);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.button4);
@@ -118,16 +115,6 @@
             this.button_dashboard.Text = "DASHBOARD";
             this.button_dashboard.UseVisualStyleBackColor = true;
             this.button_dashboard.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button_med_rec
-            // 
-            this.button_med_rec.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_med_rec.Location = new System.Drawing.Point(12, 360);
-            this.button_med_rec.Name = "button_med_rec";
-            this.button_med_rec.Size = new System.Drawing.Size(171, 48);
-            this.button_med_rec.TabIndex = 8;
-            this.button_med_rec.Text = "MEDICAL RECORDS";
-            this.button_med_rec.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -269,7 +256,7 @@
             this.buttonGenerateInvoice.Name = "buttonGenerateInvoice";
             this.buttonGenerateInvoice.Size = new System.Drawing.Size(190, 36);
             this.buttonGenerateInvoice.TabIndex = 117;
-            this.buttonGenerateInvoice.Text = "GENERATE INVOICE";
+            this.buttonGenerateInvoice.Text = "SAVE";
             this.buttonGenerateInvoice.UseVisualStyleBackColor = false;
             this.buttonGenerateInvoice.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -324,21 +311,12 @@
             this.doc_prescription1.TabIndex = 118;
             this.doc_prescription1.Load += new System.EventHandler(this.doc_prescription1_Load);
             // 
-            // doc_prescription2
-            // 
-            this.doc_prescription2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.doc_prescription2.Location = new System.Drawing.Point(203, 69);
-            this.doc_prescription2.Name = "doc_prescription2";
-            this.doc_prescription2.Size = new System.Drawing.Size(1182, 572);
-            this.doc_prescription2.TabIndex = 118;
-            // 
             // doc_layout_02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1392, 710);
-            this.Controls.Add(this.doc_prescription2);
             this.Controls.Add(this.buttonGenerateInvoice);
             this.Controls.Add(this.doc_Patient_student_ques_21);
             this.Controls.Add(this.doc_patient_student_ques1);
@@ -381,7 +359,6 @@
         private System.Windows.Forms.Button manage_patient;
         private System.Windows.Forms.Button add_patient;
         private System.Windows.Forms.Button button_dashboard;
-        private System.Windows.Forms.Button button_med_rec;
         private System.Windows.Forms.Button button_submit;
         private System.Windows.Forms.Button button_back;
         private System.Windows.Forms.Button button_next;
@@ -392,6 +369,5 @@
         private Doc_Patient_student_ques_2 doc_Patient_student_ques_21;
         private System.Windows.Forms.Button buttonGenerateInvoice;
         private doc_prescription doc_prescription1;
-        private doc_prescription doc_prescription2;
     }
 }
