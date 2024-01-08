@@ -1,0 +1,196 @@
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.pdb
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\bin\Debug\MySql.Data.dll
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Admin.resources
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doctor_admin.resources
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doctor.resources
+C:\Users\mark neil v tanap\Source\Repos\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.pdb
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Admin.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doctor.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doctor_admin.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\Yakuzaa\Documents\GitHub\IM2\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\dlone\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\dlone\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\dlone\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.resx
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.cs
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.Designer.cs
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.pdb
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Admin.resources
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doctor.resources
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doctor_admin.resources
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+C:\Users\dlone\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.resx
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.cs
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.Designer.cs
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.pdb
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\MySql.Data.dll
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_dashboard.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_layout_02.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_doctor.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_student.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doc_patient_student_ques.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doc_Patient_student_ques_2.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.ParentName.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_patient_student_physical.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_prescription.resources
+D:\downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.print_prescription.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.resx
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.cs
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.Designer.cs
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.pdb
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.ParentName.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_student.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_dashboard.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_layout_02.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_doctor.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doc_patient_student_ques.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doc_Patient_student_ques_2.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_prescription.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_patient_student_physical.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.print_prescription.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\Yakuzaa\Downloads\endterm_IM2-20240105T150348Z-001\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.resx
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.cs
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\bin\Debug\admin_dashboard.Designer.cs
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.exe
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\bin\Debug\endterm_IM2.pdb
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.ParentName.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_student.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_dashboard.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_layout_02.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.admin_doctor.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doc_patient_student_ques.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Doc_Patient_student_ques_2.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_prescription.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.doc_patient_student_physical.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.print_prescription.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\Yakuzaa\Documents\endterm_IM2\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\admin_dashboard.resx
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\admin_dashboard.cs
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\admin_dashboard.Designer.cs
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\endterm_IM2.exe
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\endterm_IM2.pdb
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.ParentName.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_student.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_dashboard.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_layout_02.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_doctor.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.Doc_patient_student_ques.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.Doc_Patient_student_ques_2.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_prescription.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_patient_student_physical.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.print_prescription.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.exe
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.pdb
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_patient.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient.resources
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\System.Memory.dll
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dlone\final_na _talga\endterm_IM2\bin\Debug\System.Buffers.dll
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\admin_dashboard.resx
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\admin_dashboard.cs
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\admin_dashboard.Designer.cs
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\endterm_IM2.exe.config
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\endterm_IM2.exe
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\endterm_IM2.pdb
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\bin\Debug\MySql.Data.dll
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.AssemblyReference.cache
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_patient.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.ParentName.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_dashboard.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_student.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_dashboard.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_layout_02.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.admin_doctor.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.Doc_patient_student_ques.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.Doc_Patient_student_ques_2.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_prescription.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.login.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_patient_student_physical.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.print_prescription.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.Properties.Resources.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.GenerateResource.cache
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.CoreCompileInputs.cache
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.exe
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.pdb
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_personal.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_physical.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_ques1.resources
+D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_ques2.resources
