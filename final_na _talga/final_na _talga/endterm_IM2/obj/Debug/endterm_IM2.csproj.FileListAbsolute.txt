@@ -190,7 +190,3 @@ D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.c
 D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.csproj.CopyComplete
 D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.exe
 D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.pdb
-D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_personal.resources
-D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_physical.resources
-D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_ques1.resources
-D:\downloads\final_na _talga\final_na _talga\endterm_IM2\obj\Debug\endterm_IM2.doc_manage_patient_ques2.resources

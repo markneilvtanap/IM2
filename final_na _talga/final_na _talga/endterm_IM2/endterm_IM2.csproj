@@ -62,30 +62,6 @@
     <Compile Include="doc_manage_patient.Designer.cs">
       <DependentUpon>doc_manage_patient.cs</DependentUpon>
     </Compile>
-    <Compile Include="doc_manage_patient_personal.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="doc_manage_patient_personal.Designer.cs">
-      <DependentUpon>doc_manage_patient_personal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc_manage_patient_physical.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="doc_manage_patient_physical.Designer.cs">
-      <DependentUpon>doc_manage_patient_physical.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc_manage_patient_ques1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="doc_manage_patient_ques1.Designer.cs">
-      <DependentUpon>doc_manage_patient_ques1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc_manage_patient_ques2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="doc_manage_patient_ques2.Designer.cs">
-      <DependentUpon>doc_manage_patient_ques2.cs</DependentUpon>
-    </Compile>
     <Compile Include="doc_patient-student.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -174,18 +150,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="doc_manage_patient.resx">
       <DependentUpon>doc_manage_patient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="doc_manage_patient_personal.resx">
-      <DependentUpon>doc_manage_patient_personal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="doc_manage_patient_physical.resx">
-      <DependentUpon>doc_manage_patient_physical.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="doc_manage_patient_ques1.resx">
-      <DependentUpon>doc_manage_patient_ques1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="doc_manage_patient_ques2.resx">
-      <DependentUpon>doc_manage_patient_ques2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="doc_patient-student.resx">
       <DependentUpon>doc_patient-student.cs</DependentUpon>
